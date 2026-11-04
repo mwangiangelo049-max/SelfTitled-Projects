@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Student Tracker</h1>
+    <p>Keep assignments and grades in one place.</p>
+  </header>
+
+  <main>
+    <section class="summary" aria-label="Summary">
+      <div><strong id="overall">–</strong><span>Overall grade</span></div>
+      <div><strong id="pending">0</strong><span>Assignments pending</span></div>
+      <div><strong id="overdue">0</strong><span>Overdue</span></div>
+    </section>
+
+    <section>
+      <h2>Assignments</h2>
+      <form id="assignForm">
+        <input id="aTitle" placeholder="Assignment title" required>
+        <input id="aCourse" placeholder="Course (e.g. BIO101)" required>
+        <input id="aDue" type="date" required>
+        <button>Add assignment</button>
+      </form>
+      <ul id="assignList"></ul>
+    </section>
+
+    <section>
+      <h2>Grades</h2>
+      <form id="gradeForm">
+        <input id="gCourse" placeholder="Course" required>
+        <input id="gName" placeholder="Assessment (e.g. CAT 1)" required>
+        <input id="gScore" type="number" min="0" step="any" placeholder="Score" required>
+        <input id="gMax" type="number" min="1" step="any" placeholder="Out of" required>
+        <input id="gWeight" type="number" min="0" step="any" placeholder="Weight %" required>
+        <button>Add grade</button>
+      </form>
+      <div id="gradeList"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
