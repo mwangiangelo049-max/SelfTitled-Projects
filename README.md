@@ -2,7 +2,7 @@
 
 > A simple web app for students to track assignments and grades in one place.
 
-🌐 **Live site:** https://YOUR-USERNAME.github.io/student-tracker
+🌐 **Live site:** https://mwngiangelo049-max.github.io/student-tracker
 
 ## About
 Students juggle deadlines and scores across many courses. Student Tracker shows what is due, what is overdue, and the current weighted grade for each course.
@@ -19,7 +19,7 @@ Students juggle deadlines and scores across many courses. Student Tracker shows 
 HTML, CSS, JavaScript. Hosted on GitHub Pages.
 
 ## Run Locally
-1. `git clone https://github.com/YOUR-USERNAME/student-tracker.git`
+1. `git clone https://github.com/mwangiangelo049-max/student-tracker.git`
 2. Open `index.html` in your browser.
 
 ## Roadmap
